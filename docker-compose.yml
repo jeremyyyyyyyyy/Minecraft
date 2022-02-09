@@ -2,21 +2,28 @@ version: "3"
 
 services:
     minecraft-server:
-        build: #fdfdfdfdfd
+        build: 
          context: .
          args:
              RAM_AMOUNT: ${RAM_AMOUNT}
+
+        tty: true
+        restart: unless-stopped
         volumes:
           - .server-data:/server
+          
         ports:
           - 25565:25565
-
+          - 25575:25575
+           
+           
         
 
         container_name:  ${CONTAINER_NAME}        
                 
 volumes:
    server-data:
+     external: true 
   
             
         
