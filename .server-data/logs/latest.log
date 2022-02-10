@@ -36,3 +36,16 @@
 [15:48:27] [Server thread/INFO]: RongeMonBambou[/172.19.0.1:39548] logged in with entity id 219 at ([world]-185.5, 68.0, -105.5)
 [15:49:04] [Server thread/INFO]: RongeMonBambou lost connection: Disconnected
 [15:49:04] [Server thread/INFO]: RongeMonBambou left the game
+[16:55:59] [Server thread/INFO]: Stopping server
+[16:55:59] [Server thread/INFO]: Saving players
+[16:55:59] [Server thread/INFO]: Saving worlds
+[16:55:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:56:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:56:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:56:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:56:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:56:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:56:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:56:01] [Server thread/INFO]: Flushing Chunk IO
+[16:56:01] [Server thread/INFO]: Closing Thread Pool
+[16:56:01] [Server thread/INFO]: Closing Server
